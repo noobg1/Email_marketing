@@ -1,0 +1,37 @@
+{% extends "material_layout.html" %}
+{% block content %}
+<div align="left" style="position: relative;  overflow: auto;">
+<ul>
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+<thead>
+    <tr>
+      {% for title in titles %}
+      <th class="mdl-data-table__cell--non-numeric">
+      {{title}}
+      </th>       
+      {% endfor %}
+    </tr>
+</thead>
+<tbody>
+{% for key in datas  %}
+<tr>
+{% for val in key  %}
+    <td class="mdl-data-table__cell--non-numeric">
+    {% if val is string %}
+        {{ val }}
+   		{% endif %}
+       
+    </td>
+    
+{% endfor %}
+</tr>
+<br>
+{% endfor %}
+</tbody>
+</table>
+</ul>
+<button onclick="jayascript:window.print()">Print</button>
+</div>
+
+{% endblock %}
+

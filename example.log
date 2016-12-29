@@ -1,0 +1,676 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 09:18:45] "POST /signin HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 09:18:45] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 09:18:47] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/mail_util.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 09:20:09] "POST /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 937-186-028
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:49:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:49:56] "GET /images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:50:03] "GET /newcampaign HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:50:03] "GET /signin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:50:13] "POST /signin HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:50:13] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:50:20] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:51:09] "POST /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:51:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:51:18] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:53:34] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 11:58:51] "GET /static/img/cyano.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 12:01:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 12:01:53] "POST /upload HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 937-186-028
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 13:07:49] "GET /q/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 13:07:51] "GET /q/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2016 13:07:59] "GET /q/GPS%20based%20Id%20Cards%20for%20students HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:53] "GET /static/css/material.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:53] "GET /static/js/material.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:53] "GET /static/img/user.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:35:54] "GET /images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:39:44] "GET /newcampaign HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:39:44] "GET /signin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:39:51] "POST /signin HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:39:51] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:39:53] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:29] "GET /createlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:36] "GET /createlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:41:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:48:29] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 07:55:35] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:07:54] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:07:56] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:28:59] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:29:03] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:31:27] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:31:32] "POST /updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:32:36] "POST /updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:32:40] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:32:45] "POST /updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:35:03] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:35:06] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:44:20] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:47:58] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:50:20] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:50:24] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:50:58] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:53:28] "POST /subscribers HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:54:13] "POST /subscribers HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:54:18] "POST /subscribers HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:56:50] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:56:56] "POST /subscribers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 08:57:18] "POST /subscribers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:00:59] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:01:03] "POST /updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:14] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:19] "POST /updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:20] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:47] "POST /updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:47] "GET /subscribers/dsfsdfsdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:06:47] "GET /subscribers/images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:07:27] "POST /updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:07:27] "GET /subscribers/dsfsdfsdf HTTP/1.1" 405 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:52] "GET /updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:52] "GET /static/css/material.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:52] "GET /static/js/material.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:52] "GET /static/img/user.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:08:57] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:09:00] "POST /updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:09:00] "GET /subscribers/dsdg HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:27:50] "GET /updatelist HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:27:53] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:27:59] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:01] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:02] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:03] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:03] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:03] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:04] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:28:05] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:29:24] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:29:26] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:29:31] "POST /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:29:37] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:30:42] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:30:45] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:31:24] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:31:26] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:33:22] "POST /updatelist HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:33:51] "GET /updatelist/sdfds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:33:51] "GET /updatelist/images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:37:38] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:37:38] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:37:44] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:37:44] "GET /subscribers/dsfds HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:47:05] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:47:22] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:47:22] "GET /subscribers/%5Bu%271%2C1%401.com%5Cr%27%2C%20u%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:54:52] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:55:17] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:55:17] "GET /subscribers/%5B%271%2C1%401.com%5Cr%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:56:18] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:56:19] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:56:19] "GET /subscribers/%5B%271%2C1%401.com%5Cr%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:16] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:17] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:17] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%27%5Cn2%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:30] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:31] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 09:57:31] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:15:59] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:16:02] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:16:02] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:29:46] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:29:48] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:30:25] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:30:25] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:30:56] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:05] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:07] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:13] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:13] "GET /updatelist/test1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:32] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:31:32] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:32:52] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:32:52] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:33:22] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:33:22] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:34:06] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:34:06] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:36:38] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:36:38] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:39:20] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:39:20] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:41:01] "GET /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:41:08] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:41:08] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:42:53] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:42:55] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:43:00] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:43:00] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:43:16] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:43:16] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:44:16] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:44:16] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:44:59] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:44:59] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:45:47] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:45:47] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:04] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:09] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:12] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:12] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:29] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:46:29] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:47:13] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:47:24] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:47:24] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:03] "GET /signout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:03] "GET /signin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:08] "POST /signin HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:08] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:14] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:20] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:22] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:22] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:25] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:48:25] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:49:51] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:04] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:04] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:50:50] "GET /updatelist/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:08] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:08] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:31] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:31] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:51] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:52:51] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:53:56] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:53:56] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:55:12] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:55:12] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:58:04] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:58:08] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:58:08] "GET /updatelist/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:58:11] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 10:58:11] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:00:30] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:00:33] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:00:33] "GET /updatelist/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:00:58] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:00:59] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:28] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:31] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:34] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:34] "GET /updatelist/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:37] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:04:37] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:06:08] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:06:08] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:07:20] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:07:20] "GET /subscribers/%5B%271%2C1%401.com%27%2C%20%272%2C2%402.com%27%5D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:08:54] "GET /s HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:08:58] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:09:01] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:09:06] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:09:06] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:09:15] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:09:15] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:10:25] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:10:25] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:10:55] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:10:58] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:11:01] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:11:01] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:12:52] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:12:56] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:12:56] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:13:07] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:13:07] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:15:08] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:15:08] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:15:13] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:15:13] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:16:11] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:16:14] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:16:14] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:16:29] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:16:29] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:17:24] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:17:28] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:17:28] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:17:33] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:17:33] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:19:27] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:19:29] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:19:33] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:19:33] "GET /updatelist/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:22:41] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:22:44] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:22:57] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:22:57] "GET /updatelist/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:23:14] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:23:14] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:25:14] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:30:26] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:38:12] "GET /updatelist/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:38:16] "GET /updatelist HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:38:22] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:40:09] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:07] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:13] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:16] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:23] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:26] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:29] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:29] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:44] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:41:44] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:42:24] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:42:24] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:42:26] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:43:06] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:43:09] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:43:11] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:43:11] "GET /updatelist/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 11:43:23] "POST /updatelist/updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:25:48] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:25:51] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:25:56] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:25:56] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:26:06] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:26:06] "GET /subscribers/%5B%27t%2Ct%27%2C%20%27tt%2Ctt%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:28:05] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:28:05] "GET /subscribers/%5B%27t%2Ct%27%2C%20%27tt%2Ctt%27%5D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:24] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:27] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:33] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:34] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:47] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:29:47] "GET /subscribers/%5B%27tp%2Cp%27%2C%20%27pp%2Cpp%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:31:31] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:31:31] "GET /subscribers/%5B%27tp%2Cp%27%2C%20%27pp%2Cpp%27%5D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:32:55] "GET /signout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:32:55] "GET /signin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:32:57] "GET /signup HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:33:10] "POST /signup HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:33:10] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:04] "GET /signup HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:10] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:14] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:17] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:19] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:19] "GET /updatelist/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:28] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:28] "GET /subscribers/%5B%27q%2Cq%27%2C%20%27qq%2Cqq%27%5D HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/dbms/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:57] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:37:57] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:38:54] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:38:57] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:39:04] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:39:04] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:39:13] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:39:13] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:40:54] "GET /signout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:40:54] "GET /signin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:40:59] "POST /signin HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:40:59] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:03] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:09] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:17] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:17] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:23] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:41:23] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:02] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:04] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:08] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:10] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:10] "GET /updatelist/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:13] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:13] "GET /subscribers/%5B%272%2C2%27%2C%20%2722%2C22%27%5D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:35] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:38] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:41] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:41] "GET /updatelist/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:59] "POST /updatelist/updatelist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2016 16:46:59] "GET /subscribers/%5B%273%2C3%27%2C%20%2733%2C33%27%2C%20%27444%2C444%27%5D HTTP/1.1" 200 -

@@ -1,0 +1,41 @@
+<div align="left" style="position: relative;  overflow: auto;">
+
+
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+<thead>
+    <tr>
+      {% for title in titles %}
+      <th class="mdl-data-table__cell--non-numeric">
+      {{title}}
+      </th>       
+      {% endfor %}
+    </tr>
+</thead>
+<tbody>
+{% for key in datas  %}
+<tr>
+{% for val in key  %}
+{% if val is string %}
+{% if "ftp://ftp" in val %}
+
+<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric"><a href={{val}}>{{val}}</td>
+{% else %}
+<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric">
+
+{% if val is string %}
+{{ val }}
+{% endif %} 
+{% endif %}
+{% endif %}  
+</td>
+
+{% endfor %}
+</tr>
+<br>
+{% endfor %}
+</tbody>
+</table>
+
+<button onclick="jayascript:window.print()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Print</button>
+
+</div>

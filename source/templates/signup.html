@@ -1,0 +1,43 @@
+{% extends "material_layout.html" %}
+
+{% block content %}
+  <h2>Sign up</h2>
+
+  {% for message in form.firstname.errors %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  
+  {% for message in form.lastname.errors %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  
+  {% for message in form.email.errors %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  
+  {% for message in form.password.errors %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  
+  <form action="{{ url_for('signup') }}" method=post>
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    {{ form.hidden_tag() }}
+    
+    {{ form.firstname.label(class_="mdl-textfield__input") }}
+    {{ form.firstname(class_="mdl-textfield__input") }}
+    
+    {{ form.lastname.label(class_="mdl-textfield__input") }}
+    {{ form.lastname(class_="mdl-textfield__input") }}
+    
+    {{ form.email.label(class_="mdl-textfield__input") }}
+    {{ form.email(class_="mdl-textfield__input")}}
+    
+    {{ form.password.label(class_="mdl-textfield__input") }}
+    {{ form.password(class_="mdl-textfield__input") }}
+    <br>
+    <br>
+    {{ form.submit(class_="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent") }}
+  </form>
+  </div>
+    
+{% endblock %}

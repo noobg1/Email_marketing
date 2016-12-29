@@ -1,0 +1,19 @@
+{% extends "material_layout.html" %}
+{% block content %}
+
+
+  	
+
+  	<form action="updatelist" method = "POST" enctype="multipart/form-data">
+  		<h4 > List Name : {{listname}} </h4>
+		  <div class="mdl-textfield mdl-js-textfield">
+		    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" name="list" ></textarea>
+		    <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+		  </div>
+
+		   <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" value="Submit">
+			     Button
+		  </button>
+	</form>
+
+{% endblock %}

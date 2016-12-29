@@ -1,0 +1,45 @@
+{% extends "material_layout.html" %}
+{% block content %}
+  <h2>Contact</h2>
+  
+
+  {% if success %}
+    <p>Thank you for your message. We'll get back to you shortly.</p>
+  
+  {% else %}  
+    {% for message in form.name.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+    
+    {% for message in form.email.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+    
+    {% for message in form.subject.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+    
+    {% for message in form.message.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+    
+    <form action="{{ url_for('contact') }}" method=post>
+      {{ form.hidden_tag() }}
+      
+      {{ form.name.label(class_="mdl-textfield__input") }}
+      {{ form.name(class_="mdl-textfield__input") }}
+      
+      {{ form.email.label(class_="mdl-textfield__input") }}
+      {{ form.email(class_="mdl-textfield__input") }}
+      
+      {{ form.subject.label(class_="mdl-textfield__input") }}
+      {{ form.subject(class_="mdl-textfield__input") }}
+      
+      {{ form.message.label(class_="mdl-textfield__input") }}
+      {{ form.message(class_="mdl-textfield__input") }}
+      
+      {{ form.submit(class_="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent") }}
+    </form>
+  
+  {% endif %}
+{% endblock %} 

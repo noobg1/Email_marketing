@@ -1,0 +1,9 @@
+{% extends "material_layout.html" %}
+{% block content %}
+  <h2>About</h2>
+
+ <p> 
+
+ Genlysis is Complete Software which gives information about genetic makeup of organism.
+ Genlysis is a rich-gui web interface for genetic information look-up.The System integrates different gene-banks to provide information under one roof.</p>
+{% endblock %} 

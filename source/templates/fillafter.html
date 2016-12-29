@@ -1,0 +1,24 @@
+{% extends "material_layout.html" %}
+{% block content %}
+  <h2 name="header">{{choose}}</h2>
+
+ 
+
+ <form action="{{ url_for('insertdb') }}" method=post >
+ {% for attribute in attributes %}
+  <div class="mdl-textfield mdl-js-textfield">  
+    <input class="mdl-textfield__input" type="text" id="sample1" name="tupleval">
+    <label class="mdl-textfield__label" for="sample1">{{attribute}}</label>  
+  </div>
+  <br>
+  {% endfor %}
+
+  <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Submit
+</button>
+</form>
+
+
+
+
+{% endblock %} 

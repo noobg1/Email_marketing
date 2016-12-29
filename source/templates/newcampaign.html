@@ -1,0 +1,52 @@
+{% extends "material_layout.html" %}
+{% block content %}
+    <head>
+        <meta charset="utf-8">
+        <title>A Simple Page with CKEditor</title>
+        <!-- Make sure the path to CKEditor is correct. -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.6.1/ckeditor.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.6.1/adapters/jquery.js"></script>
+       <script type="text/javascript">
+   //      function myFunction(){
+   //      	var htmldata = CKEDITOR.instances.Editor.document.getBody().getHtml();
+			 contact = ["me", "others", "hr"];
+        </script>
+    </head>
+    <body>
+        <form action="newcampaign" method = "POST" enctype="multipart/form-data">
+
+                <div class="input-field col s6">
+                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+                <label for="first_name">Name</label>
+                <input class="materialize-textarea" type="text" name="name">
+                </div >
+
+                <div>
+                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+                <label for="first_name">Subject</label>
+                <input class="materialize-textarea" type="text" name="subject">
+                </div >
+
+                <div class="input-field col s6">
+                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+                <label for="icon_prefix2">Mail - id </label>
+                <input class="materialize-textarea" type="text" name="mailid">
+                </div>
+
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+                
+
+            </script>
+            <button class = "sendhtml" id = "calculate"  value="Submit" >click</button>
+        </form>
+
+        
+    </body>
+{% endblock %}

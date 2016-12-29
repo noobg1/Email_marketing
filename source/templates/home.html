@@ -1,0 +1,185 @@
+{% extends "material_layout.html" %}
+{% block content %}
+<div class="jumbo">
+    <h2>Welcome to the GENLYSIS<h2>
+    <h3>
+Genlysis is a platform which gives information about genetic organism in human.<h3>  <!-- Textfield with Floating Label -->
+
+ <form method="post" action="{{ url_for('results') }}">	
+<div >
+<div style="float:left">
+	
+            </div>
+            <div style="float:left" class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--4-col-desktop">
+              <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
+                
+                <ul>
+                  <li>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+					  <input type="checkbox" id="switch-1" class="mdl-switch__input"  name="check" value="Disease" unchecked>
+					  <span class="mdl-switch__label">Disease</span>
+					</label>
+
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+					  <input type="checkbox" id="switch-2" class="mdl-switch__input" name="check" value="Id" unchecked>
+                      <span class="mdl-switch__label">Id</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-3">
+					  <input type="checkbox" id="switch-3" class="mdl-switch__input" name="check" value="Location"unchecked>
+                      <span class="mdl-switch__label">Location</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-4">
+					  <input type="checkbox" id="switch-4" class="mdl-switch__input" name="check" value="size"unchecked>
+                      <span class="mdl-switch__label">Size</span>
+                    </label>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-5">
+					  <input type="checkbox" id="switch-5" class="mdl-switch__input" name="check" value="Num_of_genes"unchecked>
+                      <span class="mdl-switch__label">No_of_genes</span>
+                    </label>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-6">
+					  <input type="checkbox" id="switch-6" class="mdl-switch__input" name="check" value="Num_of_proteins"unchecked>
+                      <span class="mdl-switch__label">Num_of_proteins</span>
+                    </label>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-7">
+					  <input type="checkbox" id="switch-7" class="mdl-switch__input" name="check" value="Inhibitor"unchecked>
+					  <span class="mdl-switch__label">Inhibitor</span>
+					</label>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            <div style="float:left" class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--4-col-desktop">
+              <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
+                
+                <ul>
+                  <li>
+					
+
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-8">
+					  <input type="checkbox" id="switch-8" class="mdl-switch__input" name="check" value="Secondary_Meta"unchecked>
+					  <span class="mdl-switch__label">Secondary_Meta</span>
+					</label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-9">
+					  <input type="checkbox" id="switch-9" class="mdl-switch__input" name="check" value="Antibiotics"unchecked>
+					  <span class="mdl-switch__label">Antibiotics</span>
+					</label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-10">
+					  <input type="checkbox" id="switch-10" class="mdl-switch__input" name="check" value="Cell_Size"unchecked>
+					  <span class="mdl-switch__label">Cell_Size</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-11">
+					  <input type="checkbox" id="switch-11" class="mdl-switch__input" name="check" value="Cell_Shape"unchecked>
+					  <span class="mdl-switch__label">Cell_Shape</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-12">
+					  <input type="checkbox" id="switch-12" class="mdl-switch__input" name="check" value="Endospore"unchecked>
+					  <span class="mdl-switch__label">Endospore</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-13">
+					  <input type="checkbox" id="switch-13" class="mdl-switch__input" name="check" value="Gram_positive_negative"unchecked>
+					  <span class="mdl-switch__label">Gram_+ve_-ve</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-14">
+					  <input type="checkbox" id="switch-14" class="mdl-switch__input" name="check" value="Disease"unchecked>
+					  <span class="mdl-switch__label">Disease</span>
+					</label>
+					
+
+
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            <div style="float:left" class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--4-col-desktop">
+              <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
+                <!--<h3>View options</h3>-->
+                <ul>
+                  <li>
+                  <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-15">
+					  <input type="checkbox" id="switch-15" class="mdl-switch__input" name="check" value="Incu_Period"unchecked>
+					  <span class="mdl-switch__label">Incubation_period</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-16">
+					  <input type="checkbox" id="switch-16" class="mdl-switch__input" name="check" value="Epidemioloy"unchecked>
+					  <span class="mdl-switch__label">Epidemiology</span>
+					</label>
+
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-17">
+					  <input type="checkbox" id="switch-17" class="mdl-switch__input" name="check" value="Pathogenesis"unchecked>
+					  <span class="mdl-switch__label">Pathogenesis</span>
+					</label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-18">
+					  <input type="checkbox" id="switch-18" class="mdl-switch__input" name="check" value="Sequence_Id"unchecked>
+					  <span class="mdl-switch__label">Sequence_Id</span>
+					</label>
+                  </li>
+                  <li>
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-19">
+					  <input type="checkbox" id="switch-19" class="mdl-switch__input" name="check" value="Sequence_det"unchecked>
+					  <span class="mdl-switch__label">Sequence</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-20">
+					  <input type="checkbox" id="switch-20" class="mdl-switch__input" name="check" value="Species_name"unchecked>
+					  <span class="mdl-switch__label">Specie_name</span>
+					</label>
+					<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-21">
+					  <input type="checkbox" id="switch-21" class="mdl-switch__input" name="check" value="Species,Genus,Family,Class,Phylum,Kingdom"unchecked>
+					  <span class="mdl-switch__label">Taxonomy</span>
+					</label>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+
+</div>
+<br>
+<br>
+<br>
+	<div class="dropdown btn btn-default dropdown-toggle "> 
+        <!--<span class="fancyArrow"></span>-->   
+          <select name="item">
+          <option  value="#">Select Category</option>
+            <option  value="Disease">Disease</option>
+            <option  value="Id">Id</option>
+            <option  value="Species">Speciename</option>
+            <option  value="Location">Location</option>
+            <option  value="Green">add1</option>
+            <option  value="Green">add2</option>
+          </select>     
+          </div>	  
+    <div class="mdl-textfield mdl-js-textfield">
+		<input class="mdl-textfield__input" type="text" id="sample1" name="text1">
+		<label class="mdl-textfield__label" for="sample1">Enter Keyword</label>
+		</div>	
+
+  		<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+		  <i class="material-icons">add</i>
+		</button>
+    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-22">
+            <input type="checkbox" id="switch-22" class="mdl-switch__input" name="print" value="print"unchecked>
+            <span class="mdl-switch__label">Print</span>
+    </label>
+
+
+</form>
+</div>
+{% endblock %}

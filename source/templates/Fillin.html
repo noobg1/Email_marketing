@@ -1,0 +1,39 @@
+{% extends "material_layout.html" %}
+{% block content %}
+  <h2>Fill in</h2>
+
+ <p> 
+
+ Genlysis is Complete Software which gives information about genetic makeup of organism.
+ </p>
+
+ <form method="post">
+
+  
+  <label>
+    <div>Parent</div>
+    <select name="option">
+      {% for activity in activities %}
+          <option value="{{ activity }}">{{ activity }}</option>
+         
+      {% endfor %}
+    </select>
+  </label>
+  <label>
+  
+  </label>
+
+
+<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Submit
+</button>
+
+
+  
+
+</form>
+
+
+
+
+{% endblock %} 

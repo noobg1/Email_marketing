@@ -1,0 +1,55 @@
+{% extends "material_layout.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+  </head>
+  <body>		
+
+
+		 <form action="input" method="POST" enctype="multipart/form-data">
+				
+				<div class="input-field col s6">
+				<i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+				<label for="first_name">Enter Recipitents ("," seprated)</label>
+				<input class="materialize-textarea" type="text" name="mailList">
+				</div >
+
+				<div class="input-field col s6">
+				<i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+				<label for="icon_prefix2">Enter text or html content</label>
+				<input class="materialize-textarea" type="text" name="text">
+				</div>
+
+				<input class="btn" type="submit" name="my-form" value="Send">
+				
+		</form>
+
+			<form action="upload" method="post" enctype="multipart/form-data">
+				<div class="input-field col s6">
+				<i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+				<label for="first_name">Enter Recipitents ("," seprated)</label>
+				<input class="materialize-textarea" type="text" name="mailList">
+				</div >
+	            <div class="">
+	               &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="file-field input-field" type="file" name="file"></br></br>
+	                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="btn" type="submit" value="Upload">
+
+	              </div>
+            </form>
+
+		<h5>Referece</h5>
+		<p>&lth2&gt Highlighting 	&lt/h2&gt
+			<br>
+		&ltbr&gt : line break
+		<br>
+		&ltimg src = " https://image.jpg "  &gt
+		<br>
+		
+		&ltp> Test example &lt/p&gt
+		&ltp&gt
+	  </body>
+</html>
+{% endblock %}
