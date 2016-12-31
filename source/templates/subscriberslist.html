@@ -1,0 +1,41 @@
+{% extends "material_layout.html" %}
+{% block content %}
+
+  	 <form action="/unsubscribe" method = "POST" enctype="multipart/form-data"> 
+		  
+	
+		<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+			<thead>
+			    <tr>
+			      
+			      <th class="mdl-data-table__cell--non-numeric">
+			      NAME
+			      </th> 
+			      <th class="mdl-data-table__cell--non-numeric">
+			      MAILID
+			      </th>       
+			      
+			    </tr>
+			</thead>
+			<tbody >
+				{% for list in datalist%}
+				<tr >
+					
+
+						<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric" ><a href="">{{list[0]}}</td>
+
+						<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric"><a href="">{{list[1]}}</td>
+				    
+					
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+		<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored " value="Submit">
+			  <i class="material-icons">sub</i>
+		 </button>
+
+	</form>
+	
+{% endblock %}

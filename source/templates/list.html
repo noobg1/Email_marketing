@@ -1,8 +1,20 @@
 {% extends "material_layout.html" %}
 {% block content %}
+
   	 <form action="list" method = "POST" enctype="multipart/form-data"> 
 		  <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored " value="Submit">
 		  <i class="material-icons">add</i>
 		  </button>
 	</form>
+	<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+		<tbody>
+			{% for cat in datalist%}
+			<tr>
+				<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric"><a href="list/{{cat}}">{{cat}}</td>
+				
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	
 {% endblock %}

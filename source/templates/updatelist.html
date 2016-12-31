@@ -2,7 +2,17 @@
 {% block content %}
 
 
-  	
+  	<form action="/updatelistbyfile" method = "POST" enctype="multipart/form-data">
+  		<h4 > List Name : {{listname}} </h4>
+		 	
+
+	    <div >
+	     <input  type="file" name="file"></br></br>
+	     <input class="btn" type="submit" value="Upload">
+
+	    </div>
+		  
+	</form>
 
   	<form action="updatelist" method = "POST" enctype="multipart/form-data">
   		<h4 > List Name : {{listname}} </h4>
@@ -15,5 +25,8 @@
 			     Button
 		  </button>
 	</form>
+
+	<h5> Or Upload file</h5>
+	
 
 {% endblock %}

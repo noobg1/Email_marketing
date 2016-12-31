@@ -1,0 +1,53 @@
+{% extends "material_layout.html" %}
+{% block content %}
+
+
+  	
+	 <form action="editcampaign" method = "POST" enctype="multipart/form-data"> 
+		  	<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+					<thead>
+					    <tr>
+					      
+					      <th class="mdl-data-table__cell--non-numeric">
+					      SUBJECT
+					      </th> 
+					      <th class="mdl-data-table__cell--non-numeric">
+					      CATEGORY
+					      </th> 
+					       <th class="mdl-data-table__cell--non-numeric">
+					      CONTENT
+					      </th> 
+					       <th class="mdl-data-table__cell--non-numeric">
+					      TIME
+					      </th>       
+					      
+					    </tr>
+					</thead>
+					<tbody >
+						{% for list in flist%}
+						<tr >
+							
+
+								<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric" ><a href="editcampaign/{{list[2]}}">{{list[2]}}</td>
+
+								<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric">{{list[3]}}</td>
+								<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric" >{{list[4]}}</td>
+
+								<td style="text-overflow: ellipsis; overflow: hidden;max-width: 80px;  whitespace: nowrap;max-width: 100px;" class="mdl-data-table__cell--non-numeric">{{list[5]}}</td>
+						    
+							
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+
+				
+				 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Submit">
+				  EDIT
+				</button>
+
+	</form>
+
+  	
+
+{% endblock %}
