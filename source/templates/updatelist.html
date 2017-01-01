@@ -3,30 +3,50 @@
 
 
   	<form action="/updatelistbyfile" method = "POST" enctype="multipart/form-data">
-  		<h4 > List Name : {{listname}} </h4>
+  		<h4 >  </h4>
+
+		<span class="mdl-chip mdl-chip--contact">
+            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">M</span>
+            <span class="mdl-chip__text">List Name : {{listname}}</span>
+        </span>
+        <br>
+        <br>
 		 	
+        <span class="mdl-chip">
+		    <span class="mdl-chip__text">Upload File</span>
+		</span>
+		<br>
+		<br>
 
-	    <div >
+	    
 	     <input  type="file" name="file"></br></br>
-	     <input class="btn" type="submit" value="Upload">
+	     <input class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="submit" value="Upload">
 
-	    </div>
+	    
 		  
 	</form>
+	<br>
+	<br>
+
+		
+		<span class="mdl-chip">
+	    <span class="mdl-chip__text">Enter name,mailid </span>
+		</span>
+		<br>
+		<br>
 
   	<form action="updatelist" method = "POST" enctype="multipart/form-data">
-  		<h4 > List Name : {{listname}} </h4>
+  		
 		  <div class="mdl-textfield mdl-js-textfield">
 		    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" name="list" ></textarea>
-		    <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+		    <label class="mdl-textfield__label" for="sample5">test, test@test.com</label>
 		  </div>
-
-		   <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" value="Submit">
+		  <br>
+		   <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" value="Submit">
 			     Button
 		  </button>
 	</form>
 
-	<h5> Or Upload file</h5>
 	
 
 {% endblock %}

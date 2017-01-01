@@ -1,9 +1,19 @@
+
 {% extends "material_layout.html" %}
 {% block content %}
+	
+	
+	<span class="mdl-chip mdl-chip--contact">
+    <span class="mdl-chip__contact mdl-color--red mdl-color-text--white">M</span>
+    <span class="mdl-chip__text">Unsubscribe</span>
+	</span>
+	<br>
+	<br>
 
   	 <form action="/unsubscribe" method = "POST" enctype="multipart/form-data"> 
 		  
-	
+		<i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+                 <label for="first_name">Choose List/ Category</label>
 		<select name="category">
                   {% for cat in datalist %}
                       <option value="{{ cat }}">{{ cat }}</option>
@@ -19,23 +29,6 @@
 
 	</form>
 
-	<form action="/confirm_unsubscribe" method = "POST" enctype="multipart/form-data"> 
-					{% for list in fullist %}
-						
-						<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" >
-						  <input type="checkbox" id="switch-1" class="mdl-switch__input"  name="check" value="{{list}}" unchecked>
-						  <span class="mdl-switch__label">{{list}}</span>
-						</label>
-						
-					{% endfor %}
-
-		
-					
-                 
-
-		<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" value="Submit">
-		  <i class="material-icons">add</i>
-		</button>
-	<form>
+	
 	
 {% endblock %}

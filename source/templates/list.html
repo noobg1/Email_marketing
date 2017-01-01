@@ -1,12 +1,32 @@
 {% extends "material_layout.html" %}
 {% block content %}
+	
+	<h4>  </h4>
+		<span class="mdl-chip mdl-chip--contact">
+            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">M</span>
+            <span class="mdl-chip__text">Existing Lists/ categories</span>
+        </span>
+        <br>
+        <br>
 
   	 <form action="list" method = "POST" enctype="multipart/form-data"> 
-		  <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored " value="Submit">
-		  <i class="material-icons">add</i>
+		  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect " value="Submit">
+		  Add New List
 		  </button>
+		  <br>
+		  <br>
 	</form>
 	<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+		<thead>
+			    <tr>
+			      
+			      
+			      <th class="mdl-data-table__cell--non-numeric">
+			      List/ Category Name
+			      </th>       
+			      
+			    </tr>
+			</thead>
 		<tbody>
 			{% for cat in datalist%}
 			<tr>

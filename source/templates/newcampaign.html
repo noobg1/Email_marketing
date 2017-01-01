@@ -2,41 +2,34 @@
 {% block content %}
     <head>
         <meta charset="utf-8">
-        <title>A Simple Page with CKEditor</title>
+        
         <!-- Make sure the path to CKEditor is correct. -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.6.1/ckeditor.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.6.1/adapters/jquery.js"></script>
-       <script type="text/javascript">
-   //      function myFunction(){
-   //      	var htmldata = CKEDITOR.instances.Editor.document.getBody().getHtml();
-			 contact = ["me", "others", "hr"];
-        </script>
+   
     </head>
     <body>
+        <h4></h4>
+        <span class="mdl-chip mdl-chip--contact">
+            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">M</span>
+            <span class="mdl-chip__text">New Campaign</span>
+            </span>
+        <br>
+        <br>
+
         <form action="newcampaign" method = "POST" enctype="multipart/form-data">
 
 
-                <div>
-                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
-                <label for="first_name">Subject</label>
-                <input class="materialize-textarea" type="text" name="subject">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">                 
+                <input class="mdl-textfield__input" type="text" id="sample3" name="subject">
+                <label class="mdl-textfield__label" for="sample3">Subject...</label>
                 </div >
 
-               <!--  <div class="input-field col s6">
-                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
-                <label for="first_name">Name</label>
-                <input class="materialize-textarea" type="text" name="name">
-                </div >
-
-                
-
-                <div class="input-field col s6">
-                <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
-                <label for="icon_prefix2">Mail - id </label>
-                <input class="materialize-textarea" type="text" name="mailid">
-                </div>
-                -->
+              
+                 <i class="material-icons prefix">&nbsp&nbspmode_edit</i>
+                 <label for="first_name">Choose List/ Category</label>
+                 
                 <select name="option">
                   {% for cat in datalist %}
                       <option value="{{ cat }}">{{ cat }}</option>
@@ -54,7 +47,7 @@
                 
 
             </script>
-            <button class = "sendhtml" id = "calculate"  value="Submit" >click</button>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Submit" >Send</button>
         </form>
 
         

@@ -1671,3 +1671,240 @@ INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:28:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:29:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:35] "GET /newlist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:31:45] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:07] "GET /allcampaigns HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:33:08] "GET /error?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:34:14] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:34:16] "GET /error HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:34:22] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:35:10] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:35:11] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:35:13] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:37:13] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:37:36] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:38:39] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:51:39] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 08:51:58] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:22] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:24] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:33] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:41] "GET /editcampaign/testing%20edit%20campaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:42] "GET /editcampaign/images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:42:47] "GET /editcampaign/Testing%20background%20thread HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:05] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:09] "POST /confirm_unsubscribe HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:09] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:09] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:09] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:09] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:25] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:43:31] "POST /unsubscribe HTTP/1.1" 400 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:24] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:28] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:35] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:36] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:39] "POST /confirm_unsubscribe HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:39] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:39] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:39] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:45:39] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:46:32] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:46:39] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:47:37] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:48:18] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:48:34] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:48:36] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:48:45] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:48:48] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:02] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:07] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:11] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:28] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:38] "POST /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:46] "POST /confirm_unsubscribe HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:46] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:46] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:46] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:51:46] "GET /confirm_unsubscribe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:52:02] "POST /confirm_unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:52:57] "POST /confirm_unsubscribe HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:52:57] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:53:26] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:53:38] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:53:46] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:54:31] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:55:00] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:55:32] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:56:13] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:56:29] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:56:36] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:56:57] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:57:26] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:57:41] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:58:26] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:59:12] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:59:36] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 10:59:53] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:00:20] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:00:22] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:02:05] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:04:00] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:06:23] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:09:05] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:11:35] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:11:52] "GET /allcampaigns HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:11:54] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:11:55] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:04] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:04] "GET /list/images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:16] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:28] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:29] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:31] "POST /unsubscribe HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:38] "POST /unsubscribe HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:12:49] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:13:43] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/jeevan/labs/somuprocs/Email_marketing/source/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 203-624-639
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:15:32] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:16:42] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:16:54] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:17:21] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:18:31] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:18:33] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:19:54] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:19:57] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:20:19] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:20:20] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:20:58] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:22:15] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:22:30] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:22:38] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:22:41] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:22:43] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:23:36] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:24:06] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:24:44] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:24:57] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:02] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:03] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:03] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:04] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:04] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:25:44] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:26:24] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:26:25] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:26:45] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:27:33] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:27:41] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:27:52] "GET /list/take3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:28:05] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:28:08] "GET /list/updatelist HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:28:14] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:28:16] "GET /list/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:28:22] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:50:47] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:50:49] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:51:25] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:52:42] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:53:40] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:53:52] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:55:15] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:55:29] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:55:57] "GET /unsubscribe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:56:16] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:57:00] "GET /newcampaign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:57:12] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:58:01] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:58:13] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:58:55] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 11:59:52] "POST /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:00:24] "POST /newlist HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:00:24] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:00:25] "GET /updatelist/images/touch/chrome-touch-icon-192x192.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:01:12] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:01:31] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:01:33] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:02:32] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:03:12] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:03:54] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:04:34] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:06:13] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:06:20] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:07:03] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:07:30] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:07:43] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:08:05] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:09:35] "GET /updatelist/dfsd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2016 12:09:48] "GET /updatelist/dfsd HTTP/1.1" 200 -

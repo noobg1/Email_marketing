@@ -84,10 +84,10 @@ def confirm_unsubscribe():
   conn.close()
 
   print encoded_un_list
-  return str("got list")
+  return redirect(url_for('allcampaigns'))
 
 @app.route('/unsubscribe',methods=['POST','GET'])
-def unsubscirbe_from_table_selection():
+def unsubscirbestart():
     if 'email' not in session:
         return redirect(url_for('signin'))
     if request.method == 'GET':   
@@ -119,7 +119,7 @@ def unsubscirbe_from_table_selection():
           fullist.append([item.encode('utf-8') for item in t])
         
         
-        return render_template('unsubscribe.html',fullist=fullist)
+        return render_template('confirm_unsubscribe.html',fullist=fullist)
       except:
         return redirect(url_for('error'))
 
@@ -222,7 +222,7 @@ def listpost(cat):
       datalist.append([item.encode('utf-8') for item in t])
     print datalist
     
-    return render_template('subscriberslist.html',datalist=datalist)
+    return render_template('subscriberslist.html',datalist=datalist, cat=cat)
   except:
     return redirect(url_for('error'))
 
@@ -418,10 +418,7 @@ def updatelistbyfile():
           file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         except: print "failed to save"
 
-        f = open('source/uploads/'+ filename, 'rb') # opens the csv file
-        
-        
-        
+        f = open('source/uploads/'+ filename, 'rb') # opens the csv file      
          
 
         conn = mysql.connect()
