@@ -1,0 +1,1 @@
+mysql -u noobj -p noobj MailCampaign < dbfile.sql

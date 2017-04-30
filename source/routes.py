@@ -29,8 +29,8 @@ filename = ""
 
 mail = Mail()
 mysql = MySQL()
-app.config['MYSQL_DATABASE_USER'] = 'noobj'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'noobj'
+app.config['MYSQL_DATABASE_USER'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
 app.config['MYSQL_DATABASE_DB'] = 'MailCampaign'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
